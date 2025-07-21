@@ -1,0 +1,56 @@
+{
+  "name": "LiteracyLearningApp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@expo/metro-config": "^0.20.17",
+    "@react-native-async-storage/async-storage": "^1.19.3",
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/stack": "^6.3.20",
+    "expo": "^53.0.20",
+    "react": "18.2.0",
+    "react-dom": "^19.1.0",
+    "react-native": "0.72.6",
+    "react-native-gesture-handler": "^2.13.4",
+    "react-native-reanimated": "^3.5.4",
+    "react-native-safe-area-context": "^4.7.4",
+    "react-native-screens": "^3.25.0",
+    "react-native-tts": "^4.1.0",
+    "react-native-vector-icons": "^10.0.2",
+    "react-native-web": "^0.20.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@react-native/eslint-config": "^0.72.2",
+    "@react-native/metro-config": "^0.72.11",
+    "@types/react": "^18.0.24",
+    "@types/react-native": "^0.72.8",
+    "@types/react-native-vector-icons": "^6.4.18",
+    "@types/react-test-renderer": "^18.0.0",
+    "babel-jest": "^29.2.1",
+    "babel-loader": "^10.0.0",
+    "eslint": "^8.19.0",
+    "html-webpack-plugin": "^5.6.3",
+    "jest": "^29.2.1",
+    "metro-react-native-babel-preset": "0.76.8",
+    "prettier": "^2.4.1",
+    "react-test-renderer": "18.2.0",
+    "typescript": "4.8.4",
+    "webpack": "^5.100.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
